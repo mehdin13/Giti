@@ -19,6 +19,15 @@ class WebViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+    }
+   
+    
+    
+    
+    @IBAction  func dismissview (sender:AnyObject){
+        
+        self.dismiss(animated: true, completion: nil)
     }
     
 
